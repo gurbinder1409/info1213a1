@@ -30,3 +30,31 @@ using namespace std;
      
    return 0;
 }
+
+// Example program
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+
+ int main() 
+ {
+     double us_can=1.5;
+     cout<< "enter the canadian dollars to convert"<<endl;
+     
+     double can=0.0;
+      double us=0.0;
+     cin >>can;
+     
+    
+     us=can*us_can;
+     
+     cout<<"the cnadaian dollar to US="<<us<<endl;
+     
+     
+     
+     
+     
+   return 0;
+}
