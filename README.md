@@ -58,3 +58,63 @@ using namespace std;
      
    return 0;
 }
+// Example program
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+
+ int main() 
+ {
+     double us_can=1.5;
+     double can_us=0.75;
+     int userinput;
+      double canconversion=0.0;
+      double usconversion=0.0;
+      double usconvertedvalue=0.0;
+      double canconvertedvalue=0.0;
+     
+     cout<< "What you want to convert?"<<endl;
+    cout<< "1. US dollar to Canada"<<endl;
+    cout<< "2. Canda to US"<<endl;
+    
+    cin >>userinput;
+    
+    if (userinput==1)
+    {
+         cout<< "Enter the amount: "<<endl;
+         cin >>canconversion;
+     
+     usconvertedvalue=canconversion*us_can;
+     
+     cout<<"the US to Canadian="<<usconvertedvalue<<endl;
+        
+    }
+    else if (userinput==2)
+    {
+         cout<< "Enter the amount: "<<endl;
+         cin >>usconversion;
+     
+         cout<< "Enter the amount: "<<endl;
+         canconvertedvalue=usconversion*can_us;
+     
+     cout<<"the cnadaian dollar to US="<<canconvertedvalue<<endl;
+        
+    }
+    else
+    {
+       cout<<"You choose wrong option"<<endl; 
+    
+    }
+        
+     
+    
+    
+     
+     
+     
+     
+     
+   return 0;
+}
