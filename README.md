@@ -107,7 +107,28 @@ using namespace std;
        cout<<"You choose wrong option"<<endl; 
     
     }
-        
+         switch (userinput) 
+   { 
+       case 1: 
+        cout<< "Enter the amount: "<<endl;
+         cin >>canconversion;
+     
+     usconvertedvalue=canconversion*us_can;
+     
+     cout<<"the US to Canadian="<<usconvertedvalue<<endl;
+               break; 
+       case 2: 
+                cout<< "Enter the amount: "<<endl;
+         cin >>usconversion;
+     
+         canconvertedvalue=usconversion*can_us;
+     
+     cout<<"the cnadaian dollar to US="<<canconvertedvalue<<endl;
+     break;
+      
+       default: cout<<"Choice option 1 and 2 only"<<endl; 
+                break; 
+
      
     
     
