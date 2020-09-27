@@ -1,0 +1,186 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Catamaran', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*  Left div which includes  image and other information */
+.leftdiv {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+
+
+}
+
+.leftdiv {
+
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  position: fixed;
+}
+
+#leftsection {
+  margin-bottom: 50px;
+
+}
+
+
+/* image in left div */
+#mainimg>img {
+  width: 300px;
+  height:300px;
+  padding-top: 60px;
+
+}
+
+
+
+/* Button in left div  helps to navigate home and about page*/
+.navlabel {
+
+  color: white;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 3px;
+  border: 1px #0779e4 solid;
+  box-sizing: border-box;
+  font-size: x-large;
+  font-weight: bold;
+
+}
+
+/* Right DIv where all information lives */
+.rightdiv {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.rightdiv {
+  float: right;
+}
+
+
+/* universal specification fir tabel across the site */
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+/* experience section */
+#experiencetable td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+
+
+
+}
+
+#experiencetable tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* Skills section */
+#skilltable td,
+th {
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  border: 0;
+  text-align: left;
+
+
+}
+
+#skilltable tr {
+
+  background-color: white;
+  border: 0;
+
+
+}
+
+#skilltable {
+  border: 0;
+
+}
+
+/* EDUCATION SECTION */
+
+.uni a {
+
+  font-weight: bold;
+  color: #0779e4;
+
+}
+
+.uni {
+  line-height: 0.7px;
+}
+
+#education>h2 {
+  margin-top: 50px;
+
+}
+
+#education {
+  margin-bottom: 60px;
+}
+
+/* INTRESTS SECTION */
+#intrests {
+  margin-top: 50px;
+}
+
+/* giving a badge look to intrests */
+
+.label {
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #0779e4;
+  box-sizing: border-box;
+}
+
+
+
+/* EXPERIENCE SECTION */
+#experience {
+  margin-top: 50px;
+}
+
+
+
+/* CERTIFICATION SECTION */
+.cert {
+  font-weight: bold;
+  color: #0779e4;
+  line-height: 0.3px;
+}
+
+
+/* DECLARATION SECTION */
+/* Can be found in the right div at the end of page it declares what resources I studies from */
+#declaration {
+  margin-top: 100px;
+}
